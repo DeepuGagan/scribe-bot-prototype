@@ -1,0 +1,80 @@
+/* .toCenter{
+margin: auto;
+width: 50%;
+} */
+.steppers {
+    position: relative;
+    min-height: 1em;
+    color: gray;
+}
+
+.steppers+.steppers {
+    margin-top: 1.5em
+}
+
+.steppers>div:first-child {
+    position: static;
+    height: 0;
+}
+
+.steppers>div:not(:first-child) {
+    margin-left: 1.5em;
+    padding-left: 1em;
+}
+
+.steppers.steppers-active {
+    color: #4285f4
+}
+
+.steppers.steppers-active .circle {
+    background-color: #4285f4;
+}
+
+
+.circle {
+    background: rgb(163, 212, 201);
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 12px 2px #525252;
+}
+
+
+.circle:after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    top: -50px;
+    right: 50%;
+    bottom: 1px;
+    left: 50%;
+    height: 300%;
+    width: 2px;
+    transform: scale(1, 2);
+    transform-origin: 50% -100%;
+    background-color: rgba(77, 77, 77, 0.615);
+    z-index: 0;
+}
+
+.steppers:last-child .circle:after {
+    display: none !important
+}
+
+
+.title {
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.textField {
+    font-size: 1em;
+    display: flex;
+}
+/* these will be for the div section wrapping stepper */
+.wrapper{
+    padding: 1.5rem 3rem 1.5rem 1.5rem;
+}

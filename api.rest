@@ -1,0 +1,10 @@
+
+
+####
+POST http://localhost:3000/api/open-ai
+
+{
+  "inputText": "when did queen of britain ?"
+}
+
+####

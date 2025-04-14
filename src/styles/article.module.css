@@ -1,0 +1,53 @@
+.previewImage {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.previewHeadline {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.previewContent {
+padding-top: 20px;
+max-width:600px;
+}
+.articleWrapper {
+  padding-left:50px;
+}
+.mainContentWrapper {
+
+}
+.primaryMedia {
+  margin-left: 20px;
+}
+.primaryMediaWrapper {
+
+}
+.articleDetails {
+  display: inline-block;
+}
+.adImageWrapper {
+  display:inline-block;
+  margin-top:50px;
+  margin-left:50px;
+  margin-right: 50px;
+}
+.detailWrapper {
+  display:flex;
+
+}
+.adImage {
+  margin-top:50px;
+}
+.imageCredit {
+margin-left: 20px;
+color:grey;
+}
+.description {
+  margin-top: 20px;
+}
+.author {
+margin-top: 10px;
+font-size: 13px;
+color:grey;
+}

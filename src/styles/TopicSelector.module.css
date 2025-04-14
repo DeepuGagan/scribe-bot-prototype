@@ -1,0 +1,44 @@
+.topicSelector {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border: 1px dashed black;
+  width: 70vw;
+}
+
+.tagsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  /* width: 80vw; */
+  margin: 20px;
+  padding: 2px;
+  /* border: 1px solid red; */
+}
+
+.tags {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid;
+  margin: 2px;
+  padding: 2px;
+  background-color: rgb(128, 206, 186);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 2%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.tags:hover {
+  background-color: rgb(128, 206, 186, 0.8);
+  cursor: pointer;
+}
+
+.resetTopic {
+  display: inline-block;
+  margin: 10px;
+  padding: 2px;
+
+}
